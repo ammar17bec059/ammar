@@ -1,8 +1,4 @@
-/*!
- * Datepicker for Bootstrap v1.7.1 (https://github.com/uxsolutions/bootstrap-datepicker)
- *
- * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
- */
+
 
 (function(factory){
     if (typeof define === "function" && define.amd) {
@@ -687,8 +683,8 @@
 				if (this.o.orientation.x === 'right')
 					left -= calendarWidth - width;
 			}
-			// auto x orientation is best-placement: if it crosses a window
-			// edge, fudge it sideways
+			
+			
 			else {
 				if (offset.left < 0) {
 					// component is outside the window on the left side. Move it into visible range
@@ -709,8 +705,7 @@
 				}
 			}
 
-			// auto y orientation is best-situation: top or bottom, no fudging,
-			// decision based on which shows more of the calendar
+			
 			var yorient = this.o.orientation.y,
 				top_overflow;
 			if (yorient === 'auto'){
