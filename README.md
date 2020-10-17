@@ -1,2 +1,0 @@
-# ammar
-ammar cv
