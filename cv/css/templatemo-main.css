@@ -1,13 +1,8 @@
 
 
 table{
-width: 80%;
-border-radius: 10px 10px 10px 10px;
-text-align: center;
-margin-top: 3%;
-	padding: 1px;
-  display: inline-block;
-  color: white;
+
+  color: gray;
 
 }
 th{
